@@ -1,24 +1,24 @@
 my-app/
 ├── src/
 │   ├── config/
-│   │   └── db.js
+│   │   └── db.mjs
 │   ├── controllers/
-│   │   ├── authController.js
-│   │   └── postController.js
+│   │   ├── authController.mjs
+│   │   └── postController.mjs
 │   ├── middleware/
-│   │   ├── authMiddleware.js
-│   │   └── validate.js
+│   │   ├── authMiddleware.mjs
+│   │   └── validate.mjs
 │   ├── models/
-│   │   ├── Post.js
-│   │   └── User.js
+│   │   ├── Post.mjs
+│   │   └── User.mjs
 │   ├── routes/
-│   │   ├── authRoutes.js
-│   │   └── postRoutes.js
+│   │   ├── authRoutes.mjs
+│   │   └── postRoutes.mjs
 │   ├── services/
-│   │   └── emailService.js
+│   │   └── emailService.mjs
 │   ├── utils/
-│   │   ├── generateToken.js
-│   │   └── crypto.js
-│   └── index.js
+│   │   ├── generateToken.mjs
+│   │   └── crypto.mjs
+│   └── index.mjs
 ├── .env
 └── package.json
